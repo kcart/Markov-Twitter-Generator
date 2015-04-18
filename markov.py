@@ -4,6 +4,7 @@ from random import choice
 
 
 class MarkovMachine(object):
+    chains = {}
 
     def read_files(self, filenames):
         """Given a list of files, make chains from them."""
@@ -20,7 +21,7 @@ class MarkovMachine(object):
     def make_chains(self, corpus):
         """Takes input text as string; returns dictionary of markov chains."""
 
-        self.chains = {}
+        # self.chains = {}
 
         words = corpus.split()
 

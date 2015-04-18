@@ -2,11 +2,13 @@ import os
 
 import twitter
 
+import sys
+
 from markov import MarkovMachine
 
+filenames = sys.argv[1:]
 generator = MarkovMachine()
-
-
+generator.read_files(filenames)
 
 
 # Use Python os.environ to get at environmental variables
