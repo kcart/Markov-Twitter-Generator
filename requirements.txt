@@ -1,0 +1,6 @@
+argparse==1.2.1
+oauthlib==0.7.2
+python-twitter==2.2
+requests==2.6.0
+requests-oauthlib==0.4.2
+wsgiref==0.1.2
